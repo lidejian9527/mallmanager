@@ -39,7 +39,6 @@
                         width='150'>
                     </el-table-column>
                     <el-table-column
-                        prop="status"
                         label="状态"
                         width='80'>
                     </el-table-column>
@@ -54,7 +53,9 @@
 export default {
     data () {
         return {
-            tableData: []
+            tableData: [],
+            pagenum: 0,
+            pagesize: 0
         }
     },
     async beforeMount() {
