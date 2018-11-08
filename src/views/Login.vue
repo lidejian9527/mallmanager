@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .login-wrap {
   background-color: #324152;
   height: 100%;
